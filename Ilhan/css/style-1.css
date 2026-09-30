@@ -1,0 +1,189 @@
+
+body {
+    margin: 0;
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0c2233;
+    color: #e6f0f4;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    background-color: #114055;
+    border-bottom: 4px solid #4cc38a;
+    padding: 15px 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h2 {
+    margin: 0;
+    color: #4cc38a;
+    font-size: 24px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #e6f0f4;
+}
+
+.nav-links a:hover {
+    color: #4cc38a;
+    text-decoration: underline;
+}
+
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+section {
+    background-color: #123247;
+    border-left: 5px solid #4cc38a;
+    padding: 20px 25px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 34px;
+    color: #ffffff;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 26px;
+    color: #4cc38a;
+}
+
+h3 {
+    margin: 0 0 5px 0;
+    font-size: 19px;
+    color: #7cc4f0;
+}
+
+p {
+    color: #c9dbe3;
+}
+
+li {
+    margin-bottom: 8px;
+    color: #c9dbe3;
+}
+
+strong {
+    color: #ffffff;
+}
+
+.Intro {
+    text-align: center;
+    background-color: #114055;
+    border-left: none;
+    border-bottom: 5px solid #4cc38a;
+    padding: 40px 25px;
+}
+
+.Explore ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Explore li {
+    background-color: #0c2233;
+    border: 1px solid #1f5570;
+    padding: 12px 15px;
+}
+
+.Explore a {
+    color: #7cc4f0;
+}
+
+.Explore a:hover {
+    color: #4cc38a;
+}
+
+.GreenFocus {
+    border-left: 5px solid #5aaee6;
+}
+
+.GetStarted {
+    text-align: center;
+}
+
+.GetStarted a {
+    display: inline-block;
+    background-color: #4cc38a;
+    color: #0c2233;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 5px;
+}
+
+.GetStarted a:hover {
+    background-color: #7cc4f0;
+}
+
+
+footer {
+    background-color: #114055;
+    color: #c9dbe3;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 700px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+        margin-top: 10px;
+    }
+
+    main {
+        width: 92%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #4cc38a;
+    text-align: left;
+}
+
+th {
+    background-color: #114055;
+    color: #4cc38a;
+}
