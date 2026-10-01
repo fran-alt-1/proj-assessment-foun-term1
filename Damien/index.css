@@ -45,6 +45,7 @@
   display: flex;
   justify-content: space-between;
   align-self: center;
+  gap: 5px;
 }
 
 .description-sub-div {
@@ -73,4 +74,17 @@
 
 .description {
   text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .descriptions-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .description-sub-div {
+    width: 80%;
+  }
 }

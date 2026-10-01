@@ -1,1 +1,8 @@
 
+.list {
+  color: var(--light-1);
+}
+
+.link {
+  color: var(--light-1)
+}
