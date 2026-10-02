@@ -6,3 +6,18 @@
 .link {
   color: var(--light-1)
 }
+
+.table-main {
+  color: var(--light-1)
+
+}
+
+
+
+.table-item {
+  color: var(--light-1)
+}
+
+.table-main, .table-item, .table-row {
+  border: 1px solid;
+}
